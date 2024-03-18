@@ -10,9 +10,9 @@
     <ul>
       {%for bird in birds%}
       <li>
-        <h2>{{bird.name_es}}</h2>
-        <h2>{{bird.name_en}}</h2>
-        <img src="{{bird.image_url}}" alt="" >
+        <h2>{{bird.name.spanish}}</h2>
+        <h2>{{bird.name.english}}</h2>
+        <img src="{{bird.images.main}}" alt="" >
       </li>
       {%endfor%}
     </ul>  

@@ -26,4 +26,4 @@ def main():
     print("Sitio web creado correctamente como 'aves_de_chile.html'.")
 
 if __name__ == "__main__":
-    main()
+  main()
